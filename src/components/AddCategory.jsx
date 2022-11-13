@@ -11,6 +11,9 @@ const AddCategory = ({ setCategories }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        console.log('handle submit');
+
         if( inputValue.trim().length > 2) {
             setCategories(cats => [ inputValue, ...cats] );
             setInputValue('');
@@ -19,10 +22,12 @@ const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit = { handleSubmit }>
+            <p> { inputValue } </p>
             <input 
                 type="text" 
                 onChange = { handleInputChange } 
                 value = { inputValue }
+                placeholder ="Ingrese su termino a buscar"
             />
         </ form>
     )

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGriItem Debe de mostrar correctamente el componente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="este es un mal dia"
+    src="http://localhost/algo.jpg"
+  />
+  <p>
+    este es un mal dia
+     
+  </p>
+</div>
+`;
