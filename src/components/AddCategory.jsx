@@ -23,6 +23,7 @@ const AddCategory = ({ setCategories }) => {
                 type="text" 
                 onChange = { handleInputChange } 
                 value = { inputValue }
+                placeholder="Ingrese su temino a buscar, pe: peliculas"
             />
         </ form>
     )
